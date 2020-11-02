@@ -1,0 +1,42 @@
+/* html {
+  background-color: rgb(177, 32, 31);
+} */
+
+body {
+  height: 99%;
+  padding: 3rem;
+  background-color: rgb(177, 32, 31);
+  color: rgb(36, 40, 45);
+}
+
+body h1 {
+  font-family: "Roboto Mono", Arial, Helvetica, sans-serif;
+  font-size: 9.5rem;
+  font-weight: 100;
+
+  color: #121111;
+
+  border-bottom: 3px solid #121111;
+
+  margin: 5rem auto 10rem;
+}
+
+body p {
+  width: 500px;
+  font-weight: 400;
+  letter-spacing: 0.04rem;
+  line-height: 1.5;
+
+  margin: 0 auto 5rem;
+}
+
+body .button {
+  width: 40%;
+  color: #121111;
+  border: 2px solid #121111;
+}
+
+body .button:hover {
+  border: 2px solid rgb(36, 40, 45);
+  color: rgb(36, 40, 45);
+}

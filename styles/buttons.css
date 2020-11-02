@@ -1,0 +1,21 @@
+.button {
+  width: 100%;
+
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(177, 32, 31);
+
+  background-color: rgba(0, 0, 0, 0);
+  /* background-color: #121111; */
+  border: 2px solid rgb(36, 40, 45);
+  padding: 1rem 1.6rem;
+
+  margin-top: 1.8rem;
+}
+
+.button:hover {
+  border: 2px solid rgb(8, 75, 8);
+  color: rgb(8, 75, 8);
+
+  cursor: pointer;
+}

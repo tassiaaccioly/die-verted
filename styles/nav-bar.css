@@ -1,0 +1,19 @@
+header {
+  width: 600px;
+  height: 5rem;
+  border-bottom: 3px solid rgb(177, 32, 31);
+
+  font-size: 1.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #121111;
+  position: fixed;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,26 @@
+.gameplay .idfile {
+  font-family: "Share Tech Mono", monospace;
+  border: 2px solid rgb(36, 40, 45);
+  margin: 2rem auto;
+}
+
+.gameplay .file-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(36, 40, 45);
+}
+
+.file-header div {
+  padding: 1rem 2rem;
+}
+
+.file-header div + div {
+  border-left: 2px solid rgb(36, 40, 45);
+}
+
+.idfile p {
+  text-align: left;
+  padding: 2rem;
+}
