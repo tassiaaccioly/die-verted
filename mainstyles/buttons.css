@@ -1,0 +1,25 @@
+.buttonneer {
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+}
+
+button {
+    width: 18rem;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.3rem;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    padding-bottom: .8rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 3px 3px 5px grey;
+    margin-top: 18px;
+    cursor: pointer;
+}

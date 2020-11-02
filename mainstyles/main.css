@@ -1,0 +1,90 @@
+/* :root {
+
+
+/* font-family: 'Abel', sans-serif;
+font-family: 'Baloo Tammudu 2', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+} */
+
+* {
+    box-sizing: border-box;
+    font-size: 100%;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+html,
+body {
+    max-width:100vw;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+body {
+    width: 700px;
+    height: 735px;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    overflow: scroll; 
+}
+
+section {
+    width: 630px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 630px;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+article {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 1rem;
+    text-align: justify;
+    line-height: 1.3rem;
+    margin: 0 auto;
+}
+
+article p {
+    color: #000000;
+}
+
+aside {
+    width: 80%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    display: flex;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 1.5rem 1.8rem;
+    border-radius: 1rem;
+    margin: 15px auto 25px;
+}
+
+footer {
+    width: 650px;
+    display: flex;
+    justify-content: center;
+    font-size: .8rem;
+    color: #000000;
+    margin: 0 auto;
+}
+
