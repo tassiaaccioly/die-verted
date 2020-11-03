@@ -1,0 +1,51 @@
+a {
+  text-decoration: none;
+  color: #161616;
+}
+
+a:hover {
+  color: rgb(14, 94, 14);
+}
+
+body .howtoh1 {
+  font-size: 4rem;
+  border-bottom: 2px solid #161616;
+  width: 300px;
+  margin: -1rem auto 2.5rem;
+}
+
+body p {
+  width: 550px;
+  font-size: 1.4rem;
+  padding: 0;
+}
+
+.socials {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5rem auto 0;
+  color: #161616;
+}
+
+.socials h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.socials ul {
+  list-style: none;
+}
+
+.socials li body h2 {
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  margin: 1rem auto;
+  line-height: 1.7;
+}
+
+.button {
+  margin-top: 4rem;
+}

@@ -37,6 +37,11 @@ body .button {
 }
 
 body .button:hover {
-  border: 2px solid rgb(36, 40, 45);
-  color: rgb(36, 40, 45);
+  border: 2px solid rgb(167, 170, 171);
+  color: rgb(167, 170, 171);
+}
+
+footer {
+  color: #121111;
+  background-color: rgb(177, 32, 31);
 }

@@ -4,24 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Die Verted | Warnings</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Share+Tech+Mono&family=Syne+Mono&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/warnings.css" />
+    <link rel="stylesheet" href="../styles/buttons.css" />
   </head>
   <body>
-    <h1>Warnings</h1>
+    <h1>WARNING</h1>
 
-    <h2>Trigger Warning</h2>
     <p>
-      This game may contain triggering content for: depression, suicide, severe
-      mental illnesses, murder and other content that may be triggering to
-      sensitive people. Please, be advised.
+      <b>
+        This game contains imagery of death, depression, self-harm, mental
+        illnesses, murder and other content that may be triggering and/or not
+        suitable for sensitive people and children.
+        <br /><br />
+        Please, be advised.
+      </b>
     </p>
 
     <form action="../auxiliary-pages/how-to.html">
-      <label for="eighteen">
-        <input id="eighteen" name="eighteen" type="radio" required />
-        I am older than 18 years of age.
-      </label>
-      <button type="submit" id="eighteenBtn">Enter</button>
+      <input id="eighteen" name="eighteen" type="radio" required />
+      <label for="eighteen"
+        >I read the warning and I'm older than 18 years of age.</label
+      >
+      <button type="submit" class="button" id="eighteenBtn">Enter</button>
     </form>
+    <footer>
+      <div>
+        >copyright_&copy;_tassia_accioly_2020_all_rights_reserved<span
+          class="blink"
+          >_</span
+        >
+      </div>
+    </footer>
     <script
       type="text/javascript"
       src="../scripts/auxiliary-pages/warning.js"

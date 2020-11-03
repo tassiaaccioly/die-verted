@@ -1,0 +1,32 @@
+body h1 {
+  margin: 0 auto 10rem;
+}
+
+body {
+  position: relative;
+}
+
+p {
+  color: rgb(167, 170, 171);
+  font-size: 1.7rem;
+}
+
+form {
+  margin-top: 10rem;
+}
+
+label {
+  font-size: 1.5rem;
+  color: #121111;
+}
+
+body form .button {
+  margin: 2rem auto 3rem;
+}
+
+body form .button:hover {
+  border: 2px solid rgb(167, 170, 171);
+  color: rgb(167, 170, 171);
+
+  cursor: pointer;
+}

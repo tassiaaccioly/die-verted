@@ -1,0 +1,19 @@
+.howtoh1 {
+  font-size: 6rem;
+  font-weight: 200;
+  width: 500px;
+  padding: 0.5rem;
+
+  margin: 0 auto 7rem;
+}
+
+body p {
+  color: rgb(167, 170, 171);
+  font-size: 1.5rem;
+
+  margin: 0 auto 2rem;
+}
+
+body h2 {
+  margin: 7rem auto 2rem;
+}
