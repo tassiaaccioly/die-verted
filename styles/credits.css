@@ -1,0 +1,40 @@
+.twitter {
+  color: rgb(167, 170, 171);
+  filter: blur(1px);
+  background-color: #121111;
+  font-weight: 100;
+}
+
+body h1 {
+  margin: 0 auto 5rem;
+}
+
+body h2 {
+  color: rgb(167, 170, 171);
+}
+
+body p {
+  font-weight: 400;
+  margin: 2rem auto 2rem;
+}
+
+body .button {
+  margin: 2rem auto 2rem;
+}
+
+p span {
+  background-color: #121111;
+  color: rgb(167, 170, 171);
+  font-size: 2rem;
+  font-weight: 300;
+  filter: blur(1px);
+}
+
+.critique {
+  font-size: 1.3rem;
+  margin-top: 4rem;
+}
+
+.twitterp {
+  font-size: 1.3rem;
+}
