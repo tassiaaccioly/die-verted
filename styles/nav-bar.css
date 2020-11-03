@@ -16,5 +16,4 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  filter: blur(0.1rem);
 }
