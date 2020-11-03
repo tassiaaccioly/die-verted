@@ -12,16 +12,10 @@
 
     <link type="text/css" rel="stylesheet" href="../../styles/main.css" />
     <link type="text/css" rel="stylesheet" href="../../styles/nav-bar.css" />
-    <link type="text/css" rel="stylesheet" href="../../styles/buttons.css" />
     <link
       type="text/css"
       rel="stylesheet"
-      href="../../styles/page-styles/kirlian.css"
-    />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="../../styles/page-styles/page-0410.css"
+      href="../../styles/page-styles/page-0419.css"
     />
   </head>
   <body>
@@ -40,23 +34,66 @@
     </header>
 
     <main class="gameplay">
-      <p>
+      <p id="archiveText">
         You go to the precinct archive, where all the things related to your
-        case are. You need to input the case number into a terminal:
+        case are. You need to input the case number into the terminal:
       </p>
+      <section id="archive">
+        <div id="inputModal" class="div isActive">
+          <p>Please, input case number:</p>
+          <input type="text" maxlength="4" id="input01" />
+          <br />
+          <button id="casebutton">Find</button>
+        </div>
 
-      <section class="buttons">
-        <a href="./page-0420.html"
-          ><button class="button" type="button" id="page0420btn">
-            Confront him with your new found evidence.
-          </button></a
-        >
-        <a href="../path05/page-0501.html"
-          ><button class="button" type="button" id="page0501btn">
-            Continue your interrogation before you show him the video, asking
-            about why he was on that ship in the first place.
-          </button></a
-        >
+        <div id="inputWrong" class="div display notActive">
+          <p>There's no case with this number.</p>
+
+          <button class="notActive" id="lookAround">
+            Look around the office.
+          </button>
+        </div>
+
+        <div id="inputRight" class="div display notActive">
+          <p class="animate">Searching for case...</p>
+        </div>
+      </section>
+
+      <section id="office">
+        <div class="div2 notActive" id="pathSeven">
+          <p>Where do you wanna look first?</p>
+          <button id="commBtn" class="button3">Look on your Comm</button>
+          <button id="friendBtn" class="button3">Ask a friend</button>
+          <button id="wsBtn" class="button3">Look on your workstation</button>
+        </div>
+        <div class="div2 notActive" id="comm">
+          <p>
+            You look on your Comm and you've received a message from your mother
+            as king if you want to come have dinner with them and your father
+            friday night.
+          </p>
+          <button id="goback01">Go Back to the Office</button>
+        </div>
+
+        <div class="div2 notActive" id="workstation">
+          <p>
+            You get to your workstation and there it is, your case chip. You
+            insert it on your Comm and right at the first page you see a big
+            1438-KK.
+          </p>
+          <button id="gotoarchive">Go to Archive</button>
+        </div>
+
+        <div class="div2 notActive" id="colleague">
+          <p>
+            You look for a colleague that won't judge you for not knowing the
+            number and say you forgot the number of the case. He says there's no
+            problem, it's normal, nobody is supposed to remember all their
+            cases' numbers, but you should probably look in the case chip on
+            your workstation.
+          </p>
+          <button id="goback02">Go Back to the office</button>
+        </div>
       </section>
     </main>
 
@@ -69,6 +106,10 @@
       </div>
     </footer>
     <script type="text/javascript" src="../../scripts/main.js"></script>
-    <script type="text/javascript" src="../../scripts/breadcrumb.js"></script>
+    <!-- <script type="text/javascript" src="../../scripts/breadcrumb.js"></script> -->
+    <script
+      type="text/javascript"
+      src="../../scripts/page-scripts/page-0419.js"
+    ></script>
   </body>
 </html>
