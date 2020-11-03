@@ -1,3 +1,20 @@
+.gameplay h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+
+  margin-top: 1rem;
+}
+
+.gameplay h2 {
+  font-size: 1.6rem;
+  font-weight: 300;
+
+  margin: 0.8rem auto 1.7rem;
+  padding-bottom: 0.5rem;
+
+  border-bottom: 2px solid rgb(36, 40, 45);
+}
+
 .gameplay .idfile {
   font-family: "Share Tech Mono", monospace;
   border: 2px solid rgb(36, 40, 45);
@@ -23,4 +40,8 @@
 .idfile p {
   text-align: left;
   padding: 2rem;
+}
+
+.buttons {
+  margin-top: -1.8rem;
 }
