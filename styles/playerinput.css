@@ -10,7 +10,7 @@
 
   width: 45rem;
 
-  margin: 0 auto;
+  margin: -1rem auto 0;
   padding: 3rem;
   border: 2px solid rgb(177, 32, 31);
 
@@ -23,7 +23,7 @@
 }
 
 .gameplay p {
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 #playerInput {

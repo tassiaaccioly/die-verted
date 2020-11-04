@@ -1,6 +1,6 @@
 ![Die Verted](./images/die-verted.png)
 
-**This game is on beta release.**
+**This game is on open beta**
 
 _"You're a seasoned investigator with the intergalactic police. You've been working non-stop for the last three days, and now, as you're right about to leave the precinct, you find another case chip folder named 1438-KK on your work station. You don't know much about what happened but you're tasked with questioning the suspect. You feel tired, hungry and dirty, an interrogation was the last thing you needed right now."_
 
@@ -12,11 +12,12 @@ On each page the player is given a context of what is happening and two or three
 
 The game was done with HTML, CSS and a bit of Javascript.
 
-Future Implementations of the game include:
+**Future Implementations of the game include:**
 
 - [x] Player's Name Input
-- [ ] Breadcrumbs/Final Score Page (You found XX finals of XX)
-- [ ] Encyclopedia interactions (hover over things from the world to know more about them)
+- [ ] Breadcrumbs/Final Score Page
+- [ ] Saving Progress Mechanic
+- [ ] Encyclopedia interactions
 - [ ] More paths
 - [ ] More endings
 - [ ] More secret paths and endings
@@ -31,4 +32,4 @@ Future Implementations of the game include:
 - Gérsica Melchiades;
 - Igor Viana;
 
-**This game was made as part of the Ironhack Bootcamp**
+**_This game was made as part of the Ironhack Bootcamp_**
