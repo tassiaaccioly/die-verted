@@ -1,3 +1,5 @@
+const nameBtn = document.getElementById("nameBtn");
+
 nameBtn.addEventListener("click", () => {
   let player = document.getElementById("playerInput").value;
   playerName = player;
