@@ -10,16 +10,16 @@ On each page the player is given a context of what is happening and two or three
 
 [PLAY HERE](https://tassiaaccioly.github.io/die-verted/)
 
-The game is done with HTML, CSS and Javascript.
+The game was done with HTML, CSS and a bit of Javascript.
 
 Future Implementations of the game include:
 
-[X] Player's Name Input
-[] Breadcrumbs/Final Score Page (You found XX finals of XX)
-[] Encyclopedia interactions (hover over things from the world to know more about them)
-[] More paths
-[] More endings
-[] More secret paths and endings
+- [x] Player's Name Input
+- [ ] Breadcrumbs/Final Score Page (You found XX finals of XX)
+- [ ] Encyclopedia interactions (hover over things from the world to know more about them)
+- [ ] More paths
+- [ ] More endings
+- [ ] More secret paths and endings
 
 **Watch out for new releases.**
 
