@@ -1,0 +1,49 @@
+.gameplay {
+  width: 540px;
+  margin: 5rem auto 0;
+}
+
+.gameplay .div {
+  font-family: "Sharp Tech Mono", monospace;
+
+  color: rgb(14, 94, 14);
+
+  width: 45rem;
+
+  margin: 0 auto;
+  padding: 3rem;
+  border: 2px solid rgb(177, 32, 31);
+
+  filter: blur(1px);
+}
+
+.gameplay .div p {
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.gameplay p {
+  margin-top: 6rem;
+}
+
+#playerInput {
+  width: 40rem;
+  font-size: 5rem;
+  font-family: "Sharp Tech Mono", monospace;
+
+  text-align: center;
+
+  margin-top: 1rem;
+
+  color: rgb(14, 94, 14);
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid rgb(177, 32, 31);
+}
+
+.buttons button {
+  font-family: "Sharp Tech Mono", monospace;
+  font-size: 2rem;
+  width: 16rem;
+
+  margin-top: 4rem;
+}
