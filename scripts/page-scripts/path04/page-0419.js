@@ -10,8 +10,13 @@ const second = document.getElementById("200102");
 const third = document.getElementById("200103");
 const fourth = document.getElementById("200104");
 const kubrick = document.getElementById("johnny");
+const bakerstreet = document.getElementById("bakerstreet");
+const lost = document.getElementById("lost");
+const v = document.getElementById("v");
+const hitchhiker = document.getElementById("hitchhiker");
 
 let heresjohnny = new Audio("../../images/heresjohnny.mp3");
+let lostaudio = new Audio("../../images/lost.mp3");
 
 //To change screens
 
@@ -23,6 +28,7 @@ findCaseBtn.addEventListener("click", () => {
     inputRight.classList.toggle("isActive");
     inputRight.classList.toggle("notActive");
     setTimeout(() => {
+      pageStorage.pushArrayItem("pageArr", "page0428");
       window.location.href = "./page-0428.html";
     }, 5000);
   } else if (finalInput === "2001") {
@@ -60,7 +66,7 @@ findCaseBtn.addEventListener("click", () => {
         }, 5500);
       }, 5000);
     }, 4000);
-  } else if (finalInput === "0237") {
+  } else if (finalInput === "0237" || finalInput === "237") {
     inputModal.classList.toggle("notActive");
     inputModal.classList.toggle("isActive");
     inputRight.classList.toggle("isActive");
@@ -77,6 +83,88 @@ findCaseBtn.addEventListener("click", () => {
         inputModal.classList.toggle("notActive");
         inputModal.classList.toggle("isActive");
       }, 3500);
+    }, 4000);
+  } else if (finalInput === "221b" || finalInput === "221B") {
+    inputModal.classList.toggle("notActive");
+    inputModal.classList.toggle("isActive");
+    inputRight.classList.toggle("isActive");
+    inputRight.classList.toggle("notActive");
+    setTimeout(() => {
+      inputRight.classList.toggle("isActive");
+      inputRight.classList.toggle("notActive");
+      bakerstreet.classList.toggle("isActive");
+      bakerstreet.classList.toggle("notActive");
+      setTimeout(() => {
+        bakerstreet.classList.toggle("isActive");
+        bakerstreet.classList.toggle("notActive");
+        inputModal.classList.toggle("notActive");
+        inputModal.classList.toggle("isActive");
+      }, 3000);
+    }, 4000);
+  } else if (
+    finalInput === "lost" ||
+    finalInput === "Lost" ||
+    finalInput === "LOST"
+  ) {
+    inputModal.classList.toggle("notActive");
+    inputModal.classList.toggle("isActive");
+    inputRight.classList.toggle("isActive");
+    inputRight.classList.toggle("notActive");
+    setTimeout(() => {
+      inputRight.classList.toggle("isActive");
+      inputRight.classList.toggle("notActive");
+      lost.classList.toggle("isActive");
+      lost.classList.toggle("notActive");
+      lostaudio.play();
+      setTimeout(() => {
+        lost.classList.toggle("isActive");
+        lost.classList.toggle("notActive");
+        inputModal.classList.toggle("notActive");
+        inputModal.classList.toggle("isActive");
+      }, 6000);
+    }, 4000);
+  } else if (
+    finalInput === "0511" ||
+    finalInput === "1105" ||
+    finalInput === "1812"
+  ) {
+    inputModal.classList.toggle("notActive");
+    inputModal.classList.toggle("isActive");
+    inputRight.classList.toggle("isActive");
+    inputRight.classList.toggle("notActive");
+    setTimeout(() => {
+      inputRight.classList.toggle("isActive");
+      inputRight.classList.toggle("notActive");
+      v.classList.toggle("isActive");
+      v.classList.toggle("notActive");
+      setTimeout(() => {
+        v.classList.toggle("isActive");
+        v.classList.toggle("notActive");
+        inputModal.classList.toggle("notActive");
+        inputModal.classList.toggle("isActive");
+      }, 7000);
+    }, 4000);
+  } else if (
+    finalInput === "42" ||
+    finalInput === "0042" ||
+    finalInput === "4200" ||
+    finalInput === "0420"
+  ) {
+    inputModal.classList.toggle("notActive");
+    inputModal.classList.toggle("isActive");
+    inputRight.classList.toggle("isActive");
+    inputRight.classList.toggle("notActive");
+    setTimeout(() => {
+      inputRight.classList.toggle("isActive");
+      inputRight.classList.toggle("notActive");
+      hitchhiker.classList.toggle("isActive");
+      hitchhiker.classList.toggle("notActive");
+      setTimeout(() => {
+        hitchhiker.classList.toggle("isActive");
+        hitchhiker.classList.toggle("notActive");
+        inputModal.classList.toggle("notActive");
+        inputModal.classList.toggle("isActive");
+      }, 7000);
     }, 4000);
   } else {
     inputModal.classList.toggle("notActive");
