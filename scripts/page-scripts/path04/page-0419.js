@@ -14,6 +14,9 @@ const bakerstreet = document.getElementById("bakerstreet");
 const lost = document.getElementById("lost");
 const v = document.getElementById("v");
 const hitchhiker = document.getElementById("hitchhiker");
+const asimov01 = document.getElementById("asimov01");
+const asimov02 = document.getElementById("asimov02");
+const asimov03 = document.getElementById("asimov03");
 
 let heresjohnny = new Audio("../../images/heresjohnny.mp3");
 let lostaudio = new Audio("../../images/lost.mp3");
@@ -164,7 +167,36 @@ findCaseBtn.addEventListener("click", () => {
         hitchhiker.classList.toggle("notActive");
         inputModal.classList.toggle("notActive");
         inputModal.classList.toggle("isActive");
-      }, 7000);
+      }, 5000);
+    }, 3000);
+  } else if (finalInput === "0101" || finalInput === "1010") {
+    inputModal.classList.toggle("notActive");
+    inputModal.classList.toggle("isActive");
+    inputRight.classList.toggle("isActive");
+    inputRight.classList.toggle("notActive");
+    setTimeout(() => {
+      inputRight.classList.toggle("isActive");
+      inputRight.classList.toggle("notActive");
+      asimov01.classList.toggle("notActive");
+      asimov01.classList.toggle("isActive");
+      setTimeout(() => {
+        asimov01.classList.toggle("notActive");
+        asimov01.classList.toggle("isActive");
+        asimov02.classList.toggle("isActive");
+        asimov02.classList.toggle("notActive");
+        setTimeout(() => {
+          asimov02.classList.toggle("isActive");
+          asimov02.classList.toggle("notActive");
+          asimov03.classList.toggle("isActive");
+          asimov03.classList.toggle("notActive");
+          setTimeout(() => {
+            asimov03.classList.toggle("isActive");
+            asimov03.classList.toggle("notActive");
+            inputModal.classList.toggle("isActive");
+            inputModal.classList.toggle("notActive");
+          }, 5500);
+        }, 5500);
+      }, 5500);
     }, 4000);
   } else {
     inputModal.classList.toggle("notActive");
