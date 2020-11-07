@@ -17,6 +17,7 @@ const hitchhiker = document.getElementById("hitchhiker");
 const asimov01 = document.getElementById("asimov01");
 const asimov02 = document.getElementById("asimov02");
 const asimov03 = document.getElementById("asimov03");
+const orwell = document.getElementById("orwell");
 
 let heresjohnny = new Audio("../../images/heresjohnny.mp3");
 let lostaudio = new Audio("../../images/lost.mp3");
@@ -197,6 +198,27 @@ findCaseBtn.addEventListener("click", () => {
           }, 5500);
         }, 5500);
       }, 5500);
+    }, 4000);
+  } else if (
+    finalInput === "1984" ||
+    finalInput === "soma" ||
+    finalInput === "SOMA"
+  ) {
+    inputModal.classList.toggle("notActive");
+    inputModal.classList.toggle("isActive");
+    inputRight.classList.toggle("isActive");
+    inputRight.classList.toggle("notActive");
+    setTimeout(() => {
+      inputRight.classList.toggle("isActive");
+      inputRight.classList.toggle("notActive");
+      orwell.classList.toggle("isActive");
+      orwell.classList.toggle("notActive");
+      setTimeout(() => {
+        orwell.classList.toggle("isActive");
+        orwell.classList.toggle("notActive");
+        inputModal.classList.toggle("notActive");
+        inputModal.classList.toggle("isActive");
+      }, 3000);
     }, 4000);
   } else {
     inputModal.classList.toggle("notActive");
